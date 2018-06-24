@@ -1,7 +1,7 @@
 var count=0;
 
 
-// Initialize Firebase
+/*// Initialize Firebase
 var config = {
     apiKey: "AIzaSyBnjiu2q_xLA8uVPKWtabAjGGcZrMOihmU",
     authDomain: "pets-socialnetwork.firebaseapp.com",
@@ -15,10 +15,10 @@ var config = {
     function getInfoData () {
             var post=$('#user-post').val();
             var petPhoto=$('#photo').val();
-            /*console.log(post,petPhoto);*/
+            /*console.log(post,petPhoto);
             addContactData(post, petPhoto);
         }
-    }
+    }*/
 
     var template = '<div class="row">'+
             '<div class="col s6 m7 offset-s3">'+
@@ -44,17 +44,17 @@ var config = {
             document.getElementsByClassName("like")[i].classList.toggle("color");
             }  
 
-            function addContactData (post,petPhoto) {
+            function addData (post,petPhoto) {
                 
                 var finalTemplate = "";
                 finalTemplate= template.replace("__post__", post)
-                    .replace("__petPhoto", petPhoto);
+                    .replace("__petPhoto__", petPhoto);
             
                     $("main").append(finalTemplate);
                     $("like").html("count");
                     swal("You clicked the button!", "success");
                     var post=$('#number-of-likes').val('');
-                    var photo=$('#contact-phone').val('');
+                    var photo=$('#photo').val('');
 
 
 
@@ -64,5 +64,6 @@ var config = {
 
 $(document).ready(function(){
     $('.modal').modal();
-    $('#add-contact').click(getContactData);
+
+    $('#add').click(getContactData);
 });
