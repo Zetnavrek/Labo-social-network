@@ -1,0 +1,156 @@
+/*font-family: 'Gochi Hand', cursive;*/
+
+nav {
+	background: -webkit-linear-gradient(-45deg, #ad723d 1%,#e0974f 29%,#77ce6f 78%,#77ce6f 78%,#6fceca 90%); /* Chrome10-25,Safari5.1-6 */
+  border: 0;
+}
+
+.logo {
+	margin-left: 70%;
+	margin-top: 0.5vh;
+  width: 35%;
+}
+
+nav ul a {
+  color: white;
+}
+
+.menu {
+  color: black;
+}
+
+/* Sección principal */
+
+.main {
+  height: 564px;
+	padding: 0;
+}
+
+
+
+.line-one {
+	width: 20%;
+}
+
+.line-two {
+	width: 20%;
+}
+
+.content {
+	margin-top: 0;
+	margin-right: 50px;
+}
+
+.row .col {
+    padding: 0px;
+		margin-top: 0;
+}
+
+.border {
+	border: 1px solid black;
+}
+
+.row {
+    margin-bottom: 0;
+		padding-bottom: 0;
+}
+
+.name {
+	font-family: 'Gochi Hand', cursive;
+}
+
+.inline {
+    display: inline;
+}
+
+  .center {
+transform: translateY(40%);
+}
+
+.mobile {
+  display: block;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.face {
+	background-color: #4267b2;
+}
+
+
+/* Sección footer */
+
+footer {
+  background-color: #2b2b2b;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.footer {
+	margin-left: 70px;
+}
+
+small {
+	margin-left: 50%;
+}
+
+
+/* Modales */
+
+.modal-header {
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.modal-body {
+    padding: 0px 15px 15px;
+}
+
+.close {
+    font-size: 30px;
+}
+
+
+/* Modal Login */
+
+.modal {
+    background-color: white;
+    border-radius: 5px;
+		height: 564px;
+    width: 425px;
+}
+
+.profile {
+	width: 30%;
+}
+
+.frame {
+	width: 30%;
+}
+
+.imgs {
+	margin-left: 30%;
+	margin-top: 20%;
+}
+
+.foot {
+	margin-top: 15vh;
+}
+
+.cancel {
+	background-color: white;
+	color: black;
+	padding: 10px;
+}
+
+.acept {
+	background-color: #4267b2;
+	padding: 10px;
+}
+
+.button {
+	margin-left: 50%;
+}
