@@ -154,3 +154,31 @@ small {
 .button {
 	margin-left: 50%;
 }
+
+/* Registrate */
+
+.registration {
+	background: white;
+}
+
+.pps {
+	font-family: 'Gochi Hand', cursive;
+	color: black;
+}
+
+.form {
+	margin: 10% 10%;
+}
+
+.user {
+	width: 30%;
+}
+
+.save {
+	color: black;
+}
+
+.reg {
+	background-color: #4267b2;
+
+}
