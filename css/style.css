@@ -158,3 +158,50 @@ small {
 .button {
 	margin-left: 50%;
 }
+
+/* Registrate */
+
+.bco {
+	background: white;
+}
+
+.pps {
+	font-family: 'Gochi Hand', cursive;
+	color: black;
+}
+
+.form {
+	margin: 10% 10%;
+}
+
+.user {
+	width: 30%;
+}
+
+.save {
+	color: black;
+}
+
+.reg {
+	background-color: #4267b2;
+
+}
+
+/* profile */
+
+
+.pet-nav {
+	color: black;
+	font-family: 'Gochi Hand', cursive;
+}
+
+.logo-prof {
+	margin-left: 2px;
+	margin-top: 4px;
+	width: 15%;
+}
+
+.logo-msg {
+	margin-left: 65%;
+	width: 10%;
+}

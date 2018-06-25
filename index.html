@@ -70,7 +70,7 @@
 								<h6 class="inline bold"> Regístrate para ver fotos y vídeos de mascotas.</h6>
 								<br>
 								<br>
-								<a class=" face waves-effect waves-light btn-large modal-trigger" href="#facebook">  Registrate con <i class="fab fa-facebook" aria-hidden="true">  </i> </a>
+								<a id="login"class=" face waves-effect waves-light btn-large modal-trigger" href="#facebook">  Registrate con <i class="fab fa-facebook" aria-hidden="true">  </i> </a>
 								<br>
 								<br>
 								<hr class="line-one">
@@ -86,27 +86,7 @@
 				</div>
 			</div>
         </section>
-        <section id="photography-card">
-            <div class="row">
-                <div class="col s12 m7 offset-l2">
-                    <div class="card">
-                        <div class="card-image">
-                            <img id="photo" src="assets/images/doggy.jpg">
-                            <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a id= "form_archivo" class="like" onClick = "sendFile()" href="#"><i class="far fa-heart"></i></a>
-                            <a id="add" href="#!" class="modal-close waves-effect waves-green left btn right">ADD</a>
-						</div>
-						
-                    </div>
-                </div>
-            </div>
-        </section>
+        
 <!-- Modal  Registrate-->
     <div id="facebook" class="modal">
 		<div class="modal-content registro">
@@ -130,16 +110,16 @@
       <div class="row">
 		<form class="col s12">
 		  <div class="row">
-			<div class="input-field col s12">
+			<!--<div class="input-field col s12">
 			  <textarea id="user-post" class="materialize-textarea"></textarea>
 			  <label for="user-post">Escribe un post:</label>
-			</div>
+			</div>-->
 		  </div>
 		</form>
 	  </div>
     </div>
     <div class="modal-footer">
-      <a id= "add-post" href="" class="modal-close waves-effect waves-green btn-flat">Post</a>
+      <a id= "add-post" href="profile.html" class="modal-close waves-effect waves-green btn-flat">Post</a>
     </div>
   </div>
 		<footer>
@@ -164,5 +144,7 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/fire.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>

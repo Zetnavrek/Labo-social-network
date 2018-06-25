@@ -1,8 +1,8 @@
 
 count=0;
-/*var fileName = 'space.jpg';
+/*
 
-// Initialize Firebase
+ Initialize Firebase
 var config = {
     apiKey: "AIzaSyBnjiu2q_xLA8uVPKWtabAjGGcZrMOihmU",
     authDomain: "pets-socialnetwork.firebaseapp.com",
@@ -57,7 +57,7 @@ var config = {
                 /*var photo=$('#photo').val('');*/
         }
 
-       /* function heart() {
+       /*function heart() {
             var like = document.getElementsByClassName("like");
             for(var i = 0; i < likes.length; i++) {
             document.getElementsByClassName("like")[i].classList.toggle("color");
@@ -69,5 +69,5 @@ var config = {
 
 $(document).ready(function(){
     $('.modal').modal();
-    $('#add-post').click(getInfoData);
+    /*$('#add-post').click(getInfoData);*/
 });
