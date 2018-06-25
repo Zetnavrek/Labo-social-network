@@ -9,9 +9,18 @@ Para cumplir tales propósitos, actualmente el cliente se ve en la necesidad de 
 ### Metodología
 La metodología para alcanzar los objetivos del producto se divide en el uso de los siguientes métodos específicos:
 
-* **Entrevistas/encuestas a clientes** Se realizaran Entrevistas personales a las personas encargadas de la A.C. y a los usuarios en general para identifica de manera más efectiva las áreas de oportunidad de las redes sociales actuales en los que se apoyan, guardando y consultando información de las mascotas.
+* **Entrevistas/encuestas a clientes** Se realizaran Entrevistas personales y encuenstas a los usuarios en general para identificar de manera más efectiva las áreas de oportunidad de las redes sociales actuales en los que se apoyan, guardando y consultando información de las mascotas.
 * **Resultado de entrevistas** 
+
+![Pregunta 1](assets/images/propietarios_mascotas.jpg)
+![Pregunta 2](assets/images/frecuencia_al_compartir.jpg)
+![Pregunta 3](assets/images/preferencia_de_mascotas.jpg)
+![Pregunta 4](assets/images/presentacion_de_mascotas.jpg)
+![Pregunta 5](assets/images/opciones_al_vacacionar.jpg)
+
+
 * **Mención de descubrimientos** 
+
 
 
 ## DEFINICIÓN
