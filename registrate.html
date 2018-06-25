@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta charset="UTF-8">
+		<title> Pic-Pet Show </title>
+		<!--Import materialize.css-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</head>
+	<body>
+		<!--Navegador versión mobile-->
+		<nav class="registration">
+			<div class="bco">
+					<div class="nav-wrapper">
+            <center> <a href="index.html" class="brand-logo"><h5 class="bold pps"> Pic-pet Show </h5></a> </center>
+					</div>
+			</div>
+		</nav>
+		<section class="form">
+			<div class="prof-pic">
+				<center><img class="user" src="assets/images/user.svg" alt="user"></center>
+			</div>
+			<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field offset-3 col s6 offset-3">
+						<input placeholder="..." id="first_name" type="text" class="validate">
+						<label for="first_name"> Nombre Completo</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<div class="input-field offset-3 col s6 offset-3">
+							<input placeholder="..." id="first_name" type="text" class="validate">
+							<label for="first_name"> Nombre de usuario </label>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="password" type="password" class="validate">
+						<label for="password">Password</label>
+					</div>
+				</div>
+				<div class="row">
+					<p>
+    		  	<label>
+        			<input type="checkbox" />
+        			<span class="save">Guardar constraseña en este navegador</span>
+      			</label>
+  			  </p>
+				</div>
+				<center><a class="waves-effect waves-light btn-large reg">Registrarte</a></center>
+			</form>
+		</div>
+		</section>
+
+		<!--JavaScript at end of body for optimized loading-->
+		<script
+		  src="https://code.jquery.com/jquery-3.3.1.min.js"
+		  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		  crossorigin="anonymous"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyCNfbMFAx9i1EaOvcB_Kc1TXbnNFJF-4zc",
+		    authDomain: "labo-social-network.firebaseapp.com",
+		    databaseURL: "https://labo-social-network.firebaseio.com",
+		    projectId: "labo-social-network",
+		    storageBucket: "labo-social-network.appspot.com",
+		    messagingSenderId: "830038843904"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
