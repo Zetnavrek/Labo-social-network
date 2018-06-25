@@ -70,7 +70,7 @@
 								<h6 class="inline bold"> Regístrate para ver fotos y vídeos de mascotas.</h6>
 								<br>
 								<br>
-								<a class=" face waves-effect waves-light btn-large modal-trigger" href="#facebook">  Registrate con <i class="fab fa-facebook" aria-hidden="true">  </i> </a>
+								<a id="login"class=" face waves-effect waves-light btn-large modal-trigger" href="#facebook">  Registrate con <i class="fab fa-facebook" aria-hidden="true">  </i> </a>
 								<br>
 								<br>
 								<hr class="line-one">
@@ -119,8 +119,26 @@
  			 </div>
 		</footer>
 		<!--JavaScript at end of body for optimized loading-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script
+		  src="https://code.jquery.com/jquery-3.3.1.min.js"
+		  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		  crossorigin="anonymous"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyCNfbMFAx9i1EaOvcB_Kc1TXbnNFJF-4zc",
+		    authDomain: "labo-social-network.firebaseapp.com",
+		    databaseURL: "https://labo-social-network.firebaseio.com",
+		    projectId: "labo-social-network",
+		    storageBucket: "labo-social-network.appspot.com",
+		    messagingSenderId: "830038843904"
+		  };
+		  firebase.initializeApp(config);
+		</script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/fire.js"></script>
 	</body>
 </html>
