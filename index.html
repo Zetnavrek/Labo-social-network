@@ -86,7 +86,7 @@
 				</div>
 			</div>
         </section>
-        <section class="photography-card">
+        <section id="photography-card">
             <div class="row">
                 <div class="col s12 m7 offset-l2">
                     <div class="card">
@@ -99,10 +99,10 @@
                                 I am convenient because I require little markup to use effectively.</p>
                         </div>
                         <div class="card-action">
-                            <a class="like" href="#"><i class="far fa-heart"></i></a>
+                            <a id= "form_archivo" class="like" onClick = "sendFile()" href="#"><i class="far fa-heart"></i></a>
                             <a id="add" href="#!" class="modal-close waves-effect waves-green left btn right">ADD</a>
-                            
-                        </div>
+						</div>
+						
                     </div>
                 </div>
             </div>
@@ -115,13 +115,32 @@
   		    <img class="frame" src="assets/images/frame.svg" alt="Youre pic">
 			</div>
 			<br>
-			<h6 class="bold inline"> Pic-pet show</h6> <h6 class="inline"> recibirá la siguiente información: tu perfil público y dirección de correo electrónico </h6>
+			<h6 class="bold inline"> Pic-pet show</h6> <br> <h6 class="inline"> ¡Te damos la bienvenida! </h6> <br> <h6 class= "inline">Comencemos con tu primer post</h6>
 			<hr class="foot">
 			<div class="button">
 				<a class="cancel waves-effect waves-light btn inline">Cancelar</a>
-  			    <a class="acept waves-effect waves-light btn inline">Aceptar</a>
+				<a class="waves-effect waves-light btn modal-trigger right" href="#modal1">Aceptar</a>
 			</div>
 		</div>
+  </div>
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <div class="row">
+		<form class="col s12">
+		  <div class="row">
+			<div class="input-field col s12">
+			  <textarea id="user-post" class="materialize-textarea"></textarea>
+			  <label for="user-post">Escribe un post:</label>
+			</div>
+		  </div>
+		</form>
+	  </div>
+    </div>
+    <div class="modal-footer">
+      <a id= "add-post" href="" class="modal-close waves-effect waves-green btn-flat">Post</a>
+    </div>
   </div>
 		<footer>
 			<div class="row hide-on-large-only">
@@ -140,6 +159,8 @@
  			 </div>
 		</footer>
 		<!--JavaScript at end of body for optimized loading-->
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
