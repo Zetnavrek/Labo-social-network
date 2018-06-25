@@ -44,7 +44,9 @@ Proceso de brainstorming:
 
 Lluvia de ideas:
 
-![Lluvia de ideas 02](assets/images/lluvia-de-ideas.jpg)
+![Lluvia de ideas 02](assets/images/diseno.jpg)
+
+![Lluvia de ideas 03](assets/images/diseno2.jpg)
 
 
 ## IDEACIÓN
